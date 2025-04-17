@@ -1,0 +1,14 @@
+{
+  "name": "hardhat-project",
+  "scripts": {
+    "build": "hardhat compile",
+    "moonbeam": "npm run build && hardhat run scripts/create-moonbeam.ts"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.23.0"
+  },
+  "dependencies": {
+    "solidity-rlp": "^2.0.8"
+  }
+}
